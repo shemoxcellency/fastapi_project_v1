@@ -1,0 +1,12 @@
+Generic single-database configuration.
+
+
+alembic is intelligent enough to figure out 
+the difference between sqlalchemy and the postgres database
+
+alembic revision --autogenerate -m "auto add votes table and other difference"
+This will auto add the difference of what was defined in our models.py 
+to a new revision that we can now push to the postgres database..
+
+
+API can get request from a website..we have been using the Postman
